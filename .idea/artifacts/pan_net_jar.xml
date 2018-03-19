@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="pan-net:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/pan_net_jar</output-path>
+    <root id="archive" name="pan-net.jar">
+      <element id="module-output" name="pan-net" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
